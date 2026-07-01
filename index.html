@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Rhythm • Link in Bio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', Georgia, serif;
+        }
+
+        .link-button {
+            transition: all 0.2s ease;
+        }
+        
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-[#F8F5F0] text-[#1F3A3A]">
+    <div class="max-w-md mx-auto min-h-screen px-6 py-10">
+        
+        <!-- Profile Section -->
+        <div class="flex flex-col items-center text-center mb-8">
+            <!-- Profile Picture -->
+            <div class="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4">
+                <img src="https://your-image-link-here.jpg" alt="Your Rhythm" class="w-full h-full object-cover">
+            </div>
+            
+            <h1 class="text-3xl font-semibold tracking-tight">@yourrhythm.co</h1>
+            <p class="text-[#4A6B6B] mt-1">Gentle tools for neurodivergent minds</p>
+        </div>
+
+        <!-- Bio -->
+        <div class="text-center mb-8">
+            <p class="text-[#2C4A4A] leading-relaxed">
+                Understand your rhythm.<br>
+                Build structure that actually fits you.
+            </p>
+        </div>
+
+        <!-- Buttons -->
+        <div class="space-y-3">
+            
+            <!-- Button 1 -->
+            <a href="#" 
+               class="link-button block w-full bg-[#1F3A3A] hover:bg-[#2C4A4A] text-white text-center py-4 px-6 rounded-2xl font-medium shadow-sm">
+                <div class="flex items-center justify-center gap-x-3">
+                    <i class="fa-solid fa-clipboard-check text-lg"></i>
+                    <span>Take the Free Rhythm Check</span>
+                </div>
+            </a>
+            <p class="text-xs text-[#6B8A8A] px-2">A 3-minute check to understand how your brain works</p>
+
+            <!-- Button 2 -->
+            <a href="#" 
+               class="link-button block w-full bg-white hover:bg-[#F0EBE3] border border-[#D4C9B8] text-[#1F3A3A] text-center py-4 px-6 rounded-2xl font-medium">
+                <div class="flex items-center justify-center gap-x-3">
+                    <i class="fa-solid fa-clock text-[#D4A017]"></i>
+                    <span>What is Your Chronotype?</span>
+                </div>
+            </a>
+
+            <!-- Button 3 -->
+            <a href="#" 
+               class="link-button block w-full bg-white hover:bg-[#F0EBE3] border border-[#D4C9B8] text-[#1F3A3A] text-center py-4 px-6 rounded-2xl font-medium">
+                <div class="flex items-center justify-center gap-x-3">
+                    <i class="fa-solid fa-brain text-[#D4A017]"></i>
+                    <span>Gentle Productivity for ADHD</span>
+                </div>
+            </a>
+
+            <!-- Button 4 -->
+            <a href="#" 
+               class="link-button block w-full bg-white hover:bg-[#F0EBE3] border border-[#D4C9B8] text-[#1F3A3A] text-center py-4 px-6 rounded-2xl font-medium">
+                <div class="flex items-center justify-center gap-x-3">
+                    <i class="fa-solid fa-battery-full text-[#D4A017]"></i>
+                    <span>Understanding Your Energy Cycles</span>
+                </div>
+            </a>
+
+            <!-- Button 5 -->
+            <a href="#" 
+               class="link-button block w-full bg-white hover:bg-[#F0EBE3] border border-[#D4C9B8] text-[#1F3A3A] text-center py-4 px-6 rounded-2xl font-medium">
+                <div class="flex items-center justify-center gap-x-3">
+                    <i class="fa-solid fa-users text-[#D4A017]"></i>
+                    <span>Join the Waitlist (Coming Soon)</span>
+                </div>
+            </a>
+            
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-10 text-center">
+            <p class="text-xs text-[#8BA3A3]">
+                Made with care for neurodivergent minds
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>

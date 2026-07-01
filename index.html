@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Rhythm • Link in Bio</title>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
@@ -29,11 +39,10 @@
 <body class="bg-[#F8F5F0] text-[#1F3A3A]">
     <div class="max-w-md mx-auto px-6 py-10">
         
-        <!-- Header with Icon-Only Logo -->
+        <!-- Header with Logo -->
         <div class="flex flex-col items-center text-center mb-8">
-            <!-- Logo -->
             <div class="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-md mb-4">
-                <img src="YOUR_LOGO_IMAGE_URL_HERE" 
+                <img src="https://raw.githubusercontent.com/yourrhythmco/yourrhythmco/refs/heads/main/v1rGA.jpg" 
                      alt="Your Rhythm Logo" 
                      class="w-full h-full object-cover">
             </div>
@@ -59,6 +68,13 @@
                 Take the Free Rhythm Check
             </a>
             <p class="text-xs text-[#6B8A8A] text-center -mt-1">A 3-minute check to understand how your brain works</p>
+
+            <!-- Newsletter Button -->
+            <a href="https://your-newsletter-link-here.com" target="_blank" 
+               class="link-btn block w-full bg-[#D4A017] hover:bg-[#C4910F] text-white text-center py-4 px-6 rounded-2xl font-medium text-[15px]">
+                <i class="fa-solid fa-envelope mr-2"></i>
+                Join the Newsletter
+            </a>
 
             <!-- Other Buttons -->
             <a href="#" class="link-btn block w-full bg-white hover:bg-[#F0EBE3] border border-[#D4C9B8] text-[#1F3A3A] text-center py-3.5 px-6 rounded-2xl font-medium text-[15px]">

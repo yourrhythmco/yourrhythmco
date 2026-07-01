@@ -17,6 +17,13 @@
             transform: translateY(-2px);
             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
         }
+        .social-icon {
+            transition: all 0.2s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+            color: #1F3A3A;
+        }
     </style>
 </head>
 <body class="bg-[#F8F5F0] text-[#1F3A3A]">
@@ -73,7 +80,19 @@
             
         </div>
 
-        <div class="mt-10 text-center">
+        <!-- Social Media Icons -->
+        <div class="mt-10 flex justify-center gap-x-6">
+            <a href="https://instagram.com/yourrhythm.co" target="_blank" 
+               class="social-icon text-[#5C7A7A] hover:text-[#1F3A3A] text-2xl">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://tiktok.com/@yourrhythm.co" target="_blank" 
+               class="social-icon text-[#5C7A7A] hover:text-[#1F3A3A] text-2xl">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+
+        <div class="mt-6 text-center">
             <p class="text-xs text-[#8BA3A3]">Made with care for neurodivergent minds</p>
         </div>
 

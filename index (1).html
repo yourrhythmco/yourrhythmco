@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Rhythm — Understand your rhythm. Build a life that fits.</title>
+  <meta name="description" content="Gentle tools for neurodivergent minds. The guidance you needed earlier. A rhythm that actually fits." />
+  <link rel="icon" href="https://raw.githubusercontent.com/yourrhythmco/yourrhythmco/refs/heads/main/v1rGA.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: "#F8F5F0",
+            ink: "#1F3A3A",
+            gold: "#D4A017",
+            mist: "#E7E1D6",
+            foam: "#FFFcf7"
+          },
+          fontFamily: {
+            sans: ["Instrument Sans", "ui-sans-serif", "system-ui", "sans-serif"]
+          },
+          boxShadow: {
+            phone: "0 30px 80px rgba(31,58,58,0.18)"
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #F8F5F0; color: #1F3A3A; }
+    .wave-bg {
+      background-image:
+        radial-gradient(900px 420px at 80% -10%, rgba(212,160,23,0.12), transparent 60%),
+        radial-gradient(700px 380px at -10% 20%, rgba(31,58,58,0.08), transparent 55%);
+    }
+    .phone {
+      width: 280px;
+      height: 580px;
+      border-radius: 42px;
+      background: #16302f;
+      padding: 10px;
+      box-shadow: 0 30px 80px rgba(31,58,58,0.22);
+    }
+    .phone-screen {
+      height: 100%;
+      border-radius: 32px;
+      background: #F8F5F0;
+      overflow: hidden;
+      position: relative;
+    }
+    .notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 92px;
+      height: 18px;
+      background: #16302f;
+      border-radius: 999px;
+      z-index: 2;
+    }
+    .gold-line { width: 1px; background: #D4A017; }
+  </style>
+</head>
+<body class="font-sans antialiased wave-bg">
+  <header class="sticky top-0 z-30 backdrop-blur bg-cream/80 border-b border-ink/10">
+    <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="https://raw.githubusercontent.com/yourrhythmco/yourrhythmco/refs/heads/main/v1rGA.jpg" alt="Your Rhythm" class="w-9 h-9 rounded-full object-cover" />
+        <span class="font-semibold tracking-tight">Your Rhythm</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#how" class="hover:text-gold transition">How it works</a>
+        <a href="#check" class="hover:text-gold transition">Rhythm Check</a>
+        <a href="#waitlist" class="px-4 py-2 rounded-full bg-ink text-cream hover:bg-ink/90 transition">Get early access</a>
+      </nav>
+      <a href="#waitlist" class="md:hidden text-sm px-3 py-1.5 rounded-full bg-ink text-cream">Join</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="max-w-6xl mx-auto px-5 pt-14 pb-20 grid lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <p class="text-sm tracking-wide uppercase text-ink/60 mb-4">The companion for neurodivergent minds</p>
+        <h1 class="text-4xl sm:text-5xl leading-[1.08] font-semibold mb-6">
+          Understand your rhythm.<br />
+          Build a life that <span class="italic font-medium">actually</span> fits.
+        </h1>
+        <p class="text-lg text-ink/75 max-w-xl mb-8">
+          Calm tools for people who never got the guidance they needed earlier.
+          Not another hustle system. A daily operating system for how your brain really works.
+        </p>
+        <form id="hero-form" action="https://formspree.io/f/xrpgpplr" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-lg">
+          <input type="email" name="email" required placeholder="your email" class="flex-1 rounded-full border border-ink/15 bg-foam px-5 py-3 outline-none focus:border-gold" />
+          <button type="submit" class="rounded-full bg-ink text-cream px-6 py-3 font-medium hover:bg-ink/90 transition">Get early access</button>
+        </form>
+        <p class="text-xs text-ink/50 mt-3">No streaks. No surprise charges. Early access only.</p>
+      </div>
+
+      <div class="flex justify-center lg:justify-end">
+        <div class="phone">
+          <div class="phone-screen p-5 pt-10">
+            <div class="notch"></div>
+            <div class="flex items-center justify-between mb-6">
+              <p class="text-xs text-ink/50">Good afternoon</p>
+              <img src="https://raw.githubusercontent.com/yourrhythmco/yourrhythmco/refs/heads/main/v1rGA.jpg" alt="" class="w-7 h-7 rounded-full object-cover" />
+            </div>
+            <h2 class="text-2xl font-semibold leading-tight mb-2">Your peak window starts in 1h 20m</h2>
+            <p class="text-sm text-ink/60 mb-6">Today: 2 things that fit. 0 that don’t.</p>
+            <div class="space-y-3">
+              <div class="rounded-2xl bg-white p-4 border border-ink/10">
+                <p class="text-[11px] uppercase tracking-wide text-gold mb-1">Peak · 14:00–17:30</p>
+                <p class="text-sm font-medium">Deep work, one conversation, one decision.</p>
+              </div>
+              <div class="rounded-2xl bg-white p-4 border border-ink/10">
+                <p class="text-[11px] uppercase tracking-wide text-ink/40 mb-1">Low · after 20:00</p>
+                <p class="text-sm">No new inputs. Recovery only.</p>
+              </div>
+              <div class="rounded-2xl bg-ink text-cream p-4">
+                <p class="text-[11px] uppercase tracking-wide text-gold mb-1">Insight</p>
+                <p class="text-sm">You crash after 3 high-social days. Protect tomorrow morning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-ink/10 bg-foam/60">
+      <div class="max-w-6xl mx-auto px-5 py-8 flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
+        <p class="font-medium">Built for brains that don’t run on someone else’s schedule.</p>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="px-3 py-1 rounded-full bg-mist">Chronotype</span>
+          <span class="px-3 py-1 rounded-full bg-mist">Energy windows</span>
+          <span class="px-3 py-1 rounded-full bg-mist">Skip-safe habits</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-5 py-20">
+      <h2 class="text-3xl font-semibold mb-3">Most tools assume every hour is equal.</h2>
+      <p class="text-ink/70 mb-10">Yours aren’t.</p>
+      <div class="grid md:grid-cols-3 gap-5">
+        <article class="rounded-3xl bg-white border border-ink/10 p-6">
+          <p class="text-gold text-sm mb-3">Old advice</p>
+          <h3 class="text-xl font-semibold mb-3">“Just wake up at 5.”</h3>
+          <p class="text-ink/70">Your peak might be 14:00. Forcing morning is not discipline. It’s friction.</p>
+        </article>
+        <article class="rounded-3xl bg-white border border-ink/10 p-6">
+          <p class="text-gold text-sm mb-3">Old advice</p>
+          <h3 class="text-xl font-semibold mb-3">“Don’t break the streak.”</h3>
+          <p class="text-ink/70">Missed days are data. Shame is not a system.</p>
+        </article>
+        <article class="rounded-3xl bg-white border border-ink/10 p-6">
+          <p class="text-gold text-sm mb-3">Old advice</p>
+          <h3 class="text-xl font-semibold mb-3">“You just need more motivation.”</h3>
+          <p class="text-ink/70">You need timing, a map, and permission to stop performing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-5 pb-8">
+      <h2 class="text-3xl font-semibold mb-3">A calm companion. Not another tracker that punishes you.</h2>
+      <p class="text-ink/70 mb-12 max-w-2xl">Energy first. Direction second. Habits that survive a bad brain day.</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="rounded-3xl bg-white border border-ink/10 p-7">
+          <h3 class="text-xl font-semibold mb-2">Energy before mood</h3>
+          <p class="text-ink/70">See when your brain is actually available — then place the day around that window.</p>
+        </article>
+        <article class="rounded-3xl bg-white border border-ink/10 p-7">
+          <h3 class="text-xl font-semibold mb-2">The guidance you needed earlier</h3>
+          <p class="text-ink/70">Short, honest prompts that help you choose direction — not just log feelings.</p>
+        </article>
+        <article class="rounded-3xl bg-white border border-ink/10 p-7">
+          <h3 class="text-xl font-semibold mb-2">Skip-safe habits</h3>
+          <p class="text-ink/70">Miss a day and nothing breaks. Your rhythm stays intact.</p>
+        </article>
+        <article class="rounded-3xl bg-white border border-ink/10 p-7">
+          <h3 class="text-xl font-semibold mb-2">Values before yes</h3>
+          <p class="text-ink/70">A 20-second check before you agree to something that will cost next week’s energy.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="max-w-6xl mx-auto px-5 py-20">
+      <h2 class="text-3xl font-semibold mb-10">Three steps. No overhaul.</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <p class="text-gold font-medium mb-2">01</p>
+          <h3 class="text-xl font-semibold mb-2">Take the Rhythm Check</h3>
+          <p class="text-ink/70">3 minutes. Chronotype, energy pattern, one directional insight.</p>
+        </div>
+        <div>
+          <p class="text-gold font-medium mb-2">02</p>
+          <h3 class="text-xl font-semibold mb-2">See your windows</h3>
+          <p class="text-ink/70">Peak, social, recovery. Plan from capacity, not guilt.</p>
+        </div>
+        <div>
+          <p class="text-gold font-medium mb-2">03</p>
+          <h3 class="text-xl font-semibold mb-2">Build what fits</h3>
+          <p class="text-ink/70">Tiny structure. Honest decisions. A life that stops fighting you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="check" class="bg-ink text-cream">
+      <div class="max-w-6xl mx-auto px-5 py-16 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div>
+          <h2 class="text-3xl font-semibold mb-2">Free Rhythm Check</h2>
+          <p class="text-cream/70">3 minutes to see how your brain actually works. First for the waitlist.</p>
+        </div>
+        <a href="#waitlist" class="inline-flex rounded-full bg-gold text-ink px-6 py-3 font-medium hover:bg-[#e0b02a] transition">Join to get the check</a>
+      </div>
+    </section>
+
+    <section id="waitlist" class="max-w-xl mx-auto px-5 py-20 text-center">
+      <h2 class="text-3xl font-semibold mb-3">Get early access to Your Rhythm</h2>
+      <p class="text-ink/70 mb-8">We’ll only mail when there is something real to use.</p>
+      <form action="https://formspree.io/f/xrpgpplr" method="POST" class="flex flex-col sm:flex-row gap-3">
+        <input type="email" name="email" required placeholder="your email" class="flex-1 rounded-full border border-ink/15 bg-white px-5 py-3 outline-none focus:border-gold" />
+        <button type="submit" class="rounded-full bg-ink text-cream px-6 py-3 font-medium hover:bg-ink/90 transition">I’m in</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="border-t border-ink/10">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-sm text-ink/60">
+      <div class="flex items-center gap-3">
+        <img src="https://raw.githubusercontent.com/yourrhythmco/yourrhythmco/refs/heads/main/v1rGA.jpg" alt="" class="w-8 h-8 rounded-full object-cover" />
+        <div>
+          <p class="text-ink font-medium">@yourrhythm.co</p>
+          <p>Gentle tools for neurodivergent minds.</p>
+        </div>
+      </div>
+      <p>Made with care. No hustle. No surprise charges.</p>
+    </div>
+  </footer>
+
+  <!-- Replace G-XXXXXXXXXX with your GA4 measurement ID when ready -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+</body>
+</html>
